@@ -23,7 +23,7 @@ export default function Counter() {
                 onChange={(e) => setAmount(Number(e.target.value))}
             />
             <button onClick={() => dispatch(incrementByAmount(amount))}>
-                Add Amount
+                Add Amount here 
             </button>
         </div>
     )
